@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.content {
+  display: flex;
+  width: 90vw;
+}
+
+.stations-container {
+  width: 50%;
+}
+
+.station-button {
+  cursor: default;
+  border: solid 1px black;
+}
+
+.player-container {
+  width: 50%;
+}
+
+.tag {
+  cursor: pointer;
+}
+
+.stations-header {
+  display: flex;
+  justify-content: space-between;
+}
+
